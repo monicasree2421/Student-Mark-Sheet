@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+#zero{
+    color: rgb(213, 18, 18);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/1234290361/vector/red-purple-watermark-pattern-light-colored-gradient-zigzag-curves-vector-abstract-striped.jpg?s=612x612&w=0&k=20&c=6o4oCSMnqGxyi-4DwYQitpw3cY9a6k_4M6Nd_Orvbmo=");
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header .logo {
+    /* position: absolute; */
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+
+}
+
+.header h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .col {
+    flex: 1;
+    padding: 0 10px;
+}
